@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    min-height: 1000px;
+    background-color: #ffffff;
+    box-shadow: -1px 5px 47px 3px rgba(236,235,253,0.75);
+}
+
+@import 'blocks/product';
+@import 'blocks/media';
